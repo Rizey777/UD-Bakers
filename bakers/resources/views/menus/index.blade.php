@@ -21,7 +21,7 @@
     @php
         date_default_timezone_set('Asia/Jakarta');
         $nowTime = date('H:i');
-        $canBuy = ($nowTime >= '07:30' && $nowTime <= '22:00');
+        $canBuy = ($nowTime >= '07:30' && $nowTime <= '16:00');
     @endphp
 
     <style>
@@ -260,7 +260,7 @@
             <div class="time-info">
                 Waktu saat ini: <strong>{{ date('H:i:s') }}</strong> -
                 <span style="color: {{ $canBuy ? '#15803d' : '#b91c1c' }};">
-                    {{ $canBuy ? 'Toko Buka (07:30 - 22:00)' : 'Toko Tutup' }}
+                    {{ $canBuy ? 'Toko Buka (07:30 - 16:00)' : 'Toko Tutup' }}
                 </span>
             </div>
 

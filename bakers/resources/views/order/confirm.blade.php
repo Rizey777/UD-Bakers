@@ -21,7 +21,7 @@
         </div>
 
         <div id="qris-kering" class="qris-container hidden">
-            <img src="{{ asset('images/qris.jpg') }}" alt="QRIS Kue Kering" />
+            <img src="{{ asset('images/qrislagi.jpg') }}" alt="QRIS Kue Kering" />
             <p>QRIS untuk pembayaran Kue Kering</p>
         </div>
 

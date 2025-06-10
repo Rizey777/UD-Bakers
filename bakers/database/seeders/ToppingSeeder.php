@@ -16,9 +16,6 @@ class ToppingSeeder extends Seeder
     ['name' => 'Matcha',    'price' => 2000, 'category' => 'kue basah'],
      ['name' => 'Strawbery',    'price' => 2000, 'category' => 'kue kering'],
        ['name' => 'Coklat',    'price' => 2000, 'category' => 'kue kering'],
-        ['name' => 'Strawbery',    'price' => 2000, 'category' => 'kue kering'],
-          ['name' => 'Matcha',    'price' => 2000, 'category' => 'kue kering'],
-            ['name' => 'Coklat',    'price' => 2000, 'category' => 'kue kering'],
         ]);
     }
 }
