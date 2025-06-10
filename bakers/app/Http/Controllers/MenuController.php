@@ -41,10 +41,11 @@ class MenuController extends Controller
         ]);
 
         // Upload gambar jika ada
-        if ($request->hasFile('image')) {
-            $path = $request->file('image')->store('menus', 'public');
-            $validated['image'] = $path;
-        }
+       if ($request->hasFile('image')) {
+        $filename = time() . '.' . $request->image->extension();
+        $request->image->move(public_path('images'), $filename);
+        $validated['image'] = $filename;
+    }
 
         Menu::create($validated);
 

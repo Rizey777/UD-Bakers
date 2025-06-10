@@ -21,12 +21,12 @@
         </div>
 
         <div id="qris-kering" class="qris-container hidden">
-            <img src="{{ asset('storage/qris.jpg') }}" alt="QRIS Kue Kering" />
+            <img src="{{ asset('images/qris.jpg') }}" alt="QRIS Kue Kering" />
             <p>QRIS untuk pembayaran Kue Kering</p>
         </div>
 
         <div id="qris-basah" class="qris-container hidden">
-            <img src="{{ asset('storage/gopay.jpg') }}" alt="QRIS Kue Basah" />
+            <img src="{{ asset('images/gopay.jpg') }}" alt="QRIS Kue Basah" />
             <p>QRIS untuk pembayaran Kue Basah</p>
         </div>
 

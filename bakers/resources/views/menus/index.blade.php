@@ -285,10 +285,11 @@
         <div class="menu-card" data-menu-id="{{ $menu->id }}">
             {{-- Gambar --}}
             @if($menu->image)
-                <img src="{{ asset('storage/' . $menu->image) }}" alt="{{ $menu->name }}">
-            @else
-                <div class="no-image">Gambar tidak tersedia</div>
-            @endif
+    <img src="{{ asset('images/' . $menu->image) }}" alt="{{ $menu->name }}">
+@else
+    <div class="no-image">Gambar tidak tersedia</div>
+@endif
+
 
             <div class="menu-card-content">
                 <h3>{{ $menu->name }}</h3>
